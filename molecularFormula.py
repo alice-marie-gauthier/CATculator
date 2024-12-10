@@ -16,10 +16,10 @@ atomRanges = {
     "N": (0, 20),   # Nitrogen atoms can range from 0 to 20
     "O": (0, 30),   # Oxygen atoms can range from 0 to 30
     "S": (0, 5),   # Sulfur atoms can range from 0 to 5
-    "F": (0,0),  # Fluorine atoms can range from 0 to
-    "Br": (0,0), # Bromine atoms can range from 0 to
-    "Cl": (0,0), # Chlorine atoms can range from 0 to
-    "I": (0,0)   # Iodine atoms can range from 0 to
+    "F": (0, 0),  # Fluorine atoms can range from 0 to
+    "Br": (0, 0), # Bromine atoms can range from 0 to
+    "Cl": (0, 0), # Chlorine atoms can range from 0 to
+    "I": (0, 0)   # Iodine atoms can range from 0 to
 }
 
 # Range of acceptable unsaturation indices
