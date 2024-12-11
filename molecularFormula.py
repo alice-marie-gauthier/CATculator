@@ -4,10 +4,14 @@ from math import isclose
 import models.base as mod
 from mendeleev import element
 from tabulate import tabulate
+import time
 
 ############################################################################################################################
 ############################################## PARAMETERS TO BE MODIFIED ###################################################
 ############################################################################################################################
+
+# Start timer
+start_time = time.time()
 
 # Define ranges for each element (min, max)
 atomRanges = {
@@ -114,3 +118,11 @@ if formulas:
     
 else:
     print("\nNo formulas found within the specified tolerance.")
+
+
+# End timer
+end_time = time.time()
+
+# Calculate elapsed time
+elapsed_time = end_time - start_time
+print(f"\nAlgorithm completed in {elapsed_time:.4f} seconds.")
